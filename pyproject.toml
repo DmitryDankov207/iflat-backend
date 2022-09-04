@@ -7,6 +7,10 @@ authors = ["Dmitry Dankov <12ddankov12@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.10"
 fastapi = "^0.81.0"
+pydantic = "^1.10.1"
+python-dotenv = "^0.21.0"
+SQLAlchemy = "^1.4.40"
+uvicorn = "^0.18.3"
 
 [tool.poetry.dev-dependencies]
 bandit = "^1.7.4"
