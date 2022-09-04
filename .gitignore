@@ -1,0 +1,31 @@
+# PyCharm
+.idea/
+
+# Venv
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+.mypy_cache
+.pytest_cache
+
+# Celery Beat
+*/celerybeat.pid
+
+# Databases
+*.db
+
+# OS X generated files.
+.DS_Store
+
+
+# Coverage
+*/htmlcov/*
+*/.coverage
+
+# .env files
+.env*
+
+# Docker copmpose
+data/

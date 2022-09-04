@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "iflat-backend"
+version = "0.1.0"
+description = ""
+authors = ["Dmitry Dankov <12ddankov12@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.81.0"
+
+[tool.poetry.dev-dependencies]
+bandit = "^1.7.4"
+isort = "^5.10.1"
+flake8 = "^5.0.4"
+black = "^22.8.0"
+mypy = "^0.971"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
